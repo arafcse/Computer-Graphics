@@ -10,7 +10,7 @@ void plotgraph(int screenWidth,int screenHeight)
 	{
 		for(int j=screenHeight/2;j<=screenHeight;j=j+25)
 		{
-			setcolor(WHITE);
+			setcolor(MAGENTA);
 			line(0,j,screenWidth,j);
 			line(i,0,i,screenHeight);
 		}
@@ -19,7 +19,7 @@ void plotgraph(int screenWidth,int screenHeight)
 	{
 		for(int j=screenHeight/2;j>=0;j=j-25)
 		{
-			setcolor(WHITE);
+			setcolor(MAGENTA);
 			line(0,j,screenWidth,j);
 			line(i,0,i,screenHeight);
 		}
@@ -94,10 +94,10 @@ int main(){
 		}
 	
 	}
-	
-    //outtextxy((screenWidth/2)+x0,(screenHeight/2)-y0+10, "Starting point");
-    //outtextxy((screenWidth/2)+x1+10,(screenHeight/2)-y1-10, "Ending point");
-    //outtextxy((screenWidth/2)+5,(screenHeight/2)+5, "(0,0)");
+
+    // outtextxy((screenWidth/2)+x0,(screenHeight/2)-y0+10, "Starting point");
+    // outtextxy((screenWidth/2)+x1+10,(screenHeight/2)-y1-10, "Ending point");
+    // outtextxy((screenWidth/2)+5,(screenHeight/2)+5, "(0,0)");
 	getch();
 	closegraph();
 	

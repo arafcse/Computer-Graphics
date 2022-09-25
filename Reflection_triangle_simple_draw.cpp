@@ -10,7 +10,7 @@ void plotgraph(int screenWidth,int screenHeight)
 	{
 		for(int j=screenHeight/2;j<=screenHeight;j=j+25)
 		{
-			setcolor(WHITE);
+			setcolor(MAGENTA);
 			line(0,j,screenWidth,j);
 			line(i,0,i,screenHeight);
 		}
@@ -19,7 +19,7 @@ void plotgraph(int screenWidth,int screenHeight)
 	{
 		for(int j=screenHeight/2;j>=0;j=j-25)
 		{
-			setcolor(WHITE);
+			setcolor(MAGENTA);
 			line(0,j,screenWidth,j);
 			line(i,0,i,screenHeight);
 		}
